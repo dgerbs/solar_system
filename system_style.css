@@ -47,14 +47,58 @@ html, body {
     top: 50%;
     left: 50%;
     
-    width: 400px;
+    width: 500px;
+    height: 500px;
+    margin-top: -200px;
+    margin-left: -200px;
+
+    /* Orbit visualization */
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 2s linear infinite;
+    -moz-animation: spin-right 2s linear infinite;
+    animation: spin-right 2s linear infinite;
+}
+
+#venus {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 50px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
+
+#venus-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 500px;
     height: 500px;
     margin-top: -250px;
     margin-left: -250px;
+
+    /* Orbit visualization */
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
     
-    -webkit-animation: spin-right 5s linear infinite;
-    -moz-animation: spin-right 10s linear infinite;
-    animation: spin-right 10s linear infinite;
+    -webkit-animation: spin-right 6s linear infinite;
+    -moz-animation: spin-right 6s linear infinite;
+    animation: spin-right 6s linear infinite;
 }
 
 #earth {
@@ -79,17 +123,18 @@ html, body {
     top: 50%;
     left: 50%;
     
-    width: 600px;
-    height: 600px;
-    margin-top: -250px;
-    margin-left: -250px;
+    width: 500px;
+    height: 500px;
+    margin-top: -350px;
+    margin-left: -350px;
     
-    /*border-width: 2px;*/
-    /*border-style: dotted;*/
-    /*border-color: white;*/
-    /*border-radius: 50%;*/
+    /* Orbit visualization */
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;
     
-    -webkit-animation: spin-right 5s linear infinite;
+    -webkit-animation: spin-right 10s linear infinite;
     -moz-animation: spin-right 10s linear infinite;
     animation: spin-right 10s linear infinite;
 }
