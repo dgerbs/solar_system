@@ -30,10 +30,10 @@ html, body {
     top: 0;
     left: 50%;
     
-    height: 50px;
-    width: 50px;
-    margin-left: -25px;
-    margin-top: -25px;
+    height: 20px;
+    width: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
     
     border-color: red;
     border-width: 4px;
@@ -47,20 +47,20 @@ html, body {
     top: 50%;
     left: 50%;
     
-    width: 500px;
-    height: 500px;
-    margin-top: -200px;
-    margin-left: -200px;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
 
     /* Orbit visualization */
     border-width: 2px;
     border-style: dotted;
     border-color: red;
     border-radius: 50%;
-    
-    -webkit-animation: spin-right 2s linear infinite;
-    -moz-animation: spin-right 2s linear infinite;
-    animation: spin-right 2s linear infinite;
+
+    -webkit-animation: spin-right 4s linear infinite;
+    -moz-animation: spin-right 4s linear infinite;
+    animation: spin-right 4s linear infinite;
 }
 
 #venus {
@@ -68,10 +68,10 @@ html, body {
     top: 0;
     left: 50%;
     
-    height: 50px;
-    width: 50px;
-    margin-left: -25px;
-    margin-top: -25px;
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
     
     border-color: white;
     border-width: 4px;
@@ -85,10 +85,10 @@ html, body {
     top: 50%;
     left: 50%;
     
-    width: 500px;
-    height: 500px;
-    margin-top: -250px;
-    margin-left: -250px;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
 
     /* Orbit visualization */
     border-width: 2px;
@@ -106,10 +106,10 @@ html, body {
     top: 0;
     left: 50%;
     
-    height: 50px;
-    width: 50px;
-    margin-left: -25px;
-    margin-top: -25px;
+    height: 42px;
+    width: 42px;
+    margin-left: -21px;
+    margin-top: -21px;
     
     border-color: blue;
     border-width: 4px;
@@ -125,8 +125,8 @@ html, body {
     
     width: 500px;
     height: 500px;
-    margin-top: -350px;
-    margin-left: -350px;
+    margin-top: -250px;
+    margin-left: -250px;
     
     /* Orbit visualization */
     border-width: 2px;
@@ -134,9 +134,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 10s linear infinite;
-    -moz-animation: spin-right 10s linear infinite;
-    animation: spin-right 10s linear infinite;
+    -webkit-animation: spin-right 8s linear infinite;
+    -moz-animation: spin-right 8s linear infinite;
+    animation: spin-right 8s linear infinite;
 }
 
 @-webkit-keyframes spin-right {
@@ -150,3 +150,4 @@ html, body {
         -webkit-transform: rotate(360deg);
     }
 }
+
