@@ -39,7 +39,7 @@ html, body {
     border-width: 1px;
     border-style: solid;
     border-radius: 50%;
-    box-shadow: 0 0 1px white;
+    box-shadow: 0 0 1px red;
 }
 
 #mercury-orbit {
@@ -115,7 +115,7 @@ html, body {
     border-width: 2px;
     border-style: solid;
     border-radius: 50%;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px blue;
 }
 
 #earth-orbit {
@@ -153,7 +153,7 @@ html, body {
     border-width: 1px;
     border-style: solid;
     border-radius: 50%;
-    box-shadow: 0 0 3px white;
+    box-shadow: 0 0 3px red;
 }
 
 #mars-orbit {
@@ -212,7 +212,7 @@ html, body {
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
-    box-shadow: 0 0 3px white;
+    box-shadow: 0 0 3px grey;
 }
 
 #jupiter-orbit {
@@ -234,6 +234,44 @@ html, body {
     -webkit-animation: spin-right 20s linear infinite;
     -moz-animation: spin-right 20s linear infinite;
     animation: spin-right 20s linear infinite;
+}
+
+#saturn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 26px;
+    width: 26px;
+    margin-left: -13px;
+    margin-top: -13px;
+    
+    border-color: lightyellow;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 3px lightyellow;
+}
+
+#saturn-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+    
+    /* Orbit visualization */
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;*/
+    
+    -webkit-animation: spin-right 25s linear infinite;
+    -moz-animation: spin-right 25s linear infinite;
+    animation: spin-right 25s linear infinite;
 }
 
 /* Animation function */
