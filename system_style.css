@@ -250,7 +250,7 @@ html, body {
     border-width: 2px;
     border-style: solid;
     border-radius: 50%;
-    box-shadow: 0 0 3px lightyellow;
+    box-shadow: 0 0 10px lightyellow;
 }
 
 #saturn-orbit {
@@ -307,11 +307,48 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 32s linear infinite;
-    -moz-animation: spin-right 32s linear infinite;
-    animation: spin-right 32s linear infinite;
+    -webkit-animation: spin-right 34s linear infinite;
+    -moz-animation: spin-right 34s linear infinite;
+    animation: spin-right 34s linear infinite;
 }
 
+#neptune {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 26px;
+    width: 26px;
+    margin-left: -13px;
+    margin-top: -13px;
+    
+    border-color: darkblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 5px darkblue;
+}
+
+#neptune-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 800px;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -400px;
+    
+    /* Orbit visualization */
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;*/
+    
+    -webkit-animation: spin-right 38s linear infinite;
+    -moz-animation: spin-right 38s linear infinite;
+    animation: spin-right 38s linear infinite;
+}
 
 /* Animation function */
 
