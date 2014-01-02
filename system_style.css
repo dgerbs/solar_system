@@ -193,9 +193,9 @@ html, body {
     border-color: red;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 18s linear infinite;
-    -moz-animation: spin-right 18s linear infinite;
-    animation: spin-right 18s linear infinite;
+    -webkit-animation: spin-right 60s linear infinite;
+    -moz-animation: spin-right 60s linear infinite;
+    animation: spin-right 60s linear infinite;
 }
 
 #jupiter {
@@ -269,9 +269,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 25s linear infinite;
-    -moz-animation: spin-right 25s linear infinite;
-    animation: spin-right 25s linear infinite;
+    -webkit-animation: spin-right 30s linear infinite;
+    -moz-animation: spin-right 30s linear infinite;
+    animation: spin-right 30s linear infinite;
 }
 
 #uranus {
@@ -307,9 +307,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 34s linear infinite;
-    -moz-animation: spin-right 34s linear infinite;
-    animation: spin-right 34s linear infinite;
+    -webkit-animation: spin-right 38s linear infinite;
+    -moz-animation: spin-right 38s linear infinite;
+    animation: spin-right 38s linear infinite;
 }
 
 #neptune {
@@ -345,9 +345,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 38s linear infinite;
-    -moz-animation: spin-right 38s linear infinite;
-    animation: spin-right 38s linear infinite;
+    -webkit-animation: spin-right 50s linear infinite;
+    -moz-animation: spin-right 48s linear infinite;
+    animation: spin-right 50s linear infinite;
 }
 
 #pluto {
@@ -383,9 +383,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 60s linear infinite;
-    -moz-animation: spin-right 60s linear infinite;
-    animation: spin-right 60s linear infinite;
+    -webkit-animation: spin-right 90s linear infinite;
+    -moz-animation: spin-right 90s linear infinite;
+    animation: spin-right 90s linear infinite;
 }
 
 /* Animation function */
