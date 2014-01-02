@@ -203,10 +203,10 @@ html, body {
     top: 0;
     left: 50%;
     
-    height: 30px;
-    width: 30px;
-    margin-left: -15px;
-    margin-top: -15px;
+    height: 32px;
+    width: 32px;
+    margin-left: -16px;
+    margin-top: -16px;
     
     border-color: grey;
     border-width: 5px;
@@ -241,10 +241,10 @@ html, body {
     top: 0;
     left: 50%;
     
-    height: 26px;
-    width: 26px;
-    margin-left: -13px;
-    margin-top: -13px;
+    height: 28px;
+    width: 28px;
+    margin-left: -19px;
+    margin-top: -19px;
     
     border-color: lightyellow;
     border-width: 2px;
@@ -273,6 +273,45 @@ html, body {
     -moz-animation: spin-right 25s linear infinite;
     animation: spin-right 25s linear infinite;
 }
+
+#uranus {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 24px;
+    width: 24px;
+    margin-left: -12px;
+    margin-top: -12px;
+    
+    border-color: lightblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 3px lightblue;
+}
+
+#uranus-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -350px;
+    
+    /* Orbit visualization */
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;*/
+    
+    -webkit-animation: spin-right 32s linear infinite;
+    -moz-animation: spin-right 32s linear infinite;
+    animation: spin-right 32s linear infinite;
+}
+
 
 /* Animation function */
 
