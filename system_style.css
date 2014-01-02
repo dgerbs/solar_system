@@ -193,9 +193,9 @@ html, body {
     border-color: red;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 50s linear infinite;
-    -moz-animation: spin-right 50s linear infinite;
-    animation: spin-right 50s linear infinite;
+    -webkit-animation: spin-right 18s linear infinite;
+    -moz-animation: spin-right 18s linear infinite;
+    animation: spin-right 18s linear infinite;
 }
 
 #jupiter {
@@ -231,9 +231,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 20s linear infinite;
-    -moz-animation: spin-right 20s linear infinite;
-    animation: spin-right 20s linear infinite;
+    -webkit-animation: spin-right 22s linear infinite;
+    -moz-animation: spin-right 22s linear infinite;
+    animation: spin-right 22s linear infinite;
 }
 
 #saturn {
@@ -348,6 +348,44 @@ html, body {
     -webkit-animation: spin-right 38s linear infinite;
     -moz-animation: spin-right 38s linear infinite;
     animation: spin-right 38s linear infinite;
+}
+
+#pluto {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 2px;
+    width: 2px;
+    margin-left: -1px;
+    margin-top: -1px;
+    
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 1px grey;
+}
+
+#pluto-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 900px;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: -450px;
+    
+    /* Orbit visualization */
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;*/
+    
+    -webkit-animation: spin-right 60s linear infinite;
+    -moz-animation: spin-right 60s linear infinite;
+    animation: spin-right 60s linear infinite;
 }
 
 /* Animation function */
