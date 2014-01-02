@@ -134,9 +134,9 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 8s linear infinite;
-    -moz-animation: spin-right 8s linear infinite;
-    animation: spin-right 8s linear infinite;
+    -webkit-animation: spin-right 10s linear infinite;
+    -moz-animation: spin-right 10s linear infinite;
+    animation: spin-right 10s linear infinite;
 }
 
 #mars {
@@ -172,9 +172,47 @@ html, body {
     border-color: blue;
     border-radius: 50%;*/
     
-    -webkit-animation: spin-right 12s linear infinite;
-    -moz-animation: spin-right 12s linear infinite;
-    animation: spin-right 12s linear infinite;
+    -webkit-animation: spin-right 15s linear infinite;
+    -moz-animation: spin-right 15s linear infinite;
+    animation: spin-right 15s linear infinite;
+}
+
+#jupiter {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    
+    border-color: grey;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 0 3px white;
+}
+
+#jupiter-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    
+    /* Orbit visualization */
+    /*border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 50%;*/
+    
+    -webkit-animation: spin-right 20s linear infinite;
+    -moz-animation: spin-right 20s linear infinite;
+    animation: spin-right 20s linear infinite;
 }
 
 /* Animation function */
